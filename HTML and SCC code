@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            margin: 0;
+            font-family: system-ui;
+            overflow: hidden;
+        }
+
+        .section {
+            /* background-color: red; */
+            height: 100vh;
+            width: 100%;
+            display: flex;
+        }
+
+        .left-side {
+            /* background-color: yellow; */
+            height: 100vh;
+            width: 100%;
+
+        }
+
+        .headingbox {
+            padding: 20px;
+            font-size: 40px;
+            margin: 60px;
+        }
+
+
+        /* .headigbox h1{
+            font-size: 200px;
+            letter-spacing: 3px;
+        } */
+        .color-box {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            margin-left: 50px;
+        }
+
+        .box1 {
+            width: 10px;
+            height: 10px;
+            display: inline-block;
+            background-color: red;
+            padding: 5px;
+            border-radius: 50%;
+            margin-left: 4px;
+            /* font-family: ; */
+
+        }
+
+        .box2 {
+            width: 10px;
+            height: 10px;
+            display: inline-block;
+            background-color: yellow;
+            padding: 5px;
+            border-radius: 50%;
+            margin-left: 4px;
+            /* font-family: ; */
+
+        }
+
+        .right-side {
+            height: 100vh;
+            width: 100%;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            margin-top: 100px;
+            margin-right: 200px;
+
+        }
+
+        .content {
+            display: flex;
+            /* justify-content: space-between; */
+            align-items: center;
+            gap: 130px;
+
+        }
+
+        .detailbox {
+            padding: 50px;
+
+
+
+        }
+
+        .detailbox h3 {
+            text-transform: capitalize;
+            margin-bottom: 15px;
+
+        }
+
+        .detailbox p {
+            text-align: justify;
+            width: 70%;
+            font-size: 24px;
+
+
+        }
+
+        .imagebox {
+            width: 400px;
+            height: 400px;
+            background-color: red;
+
+
+        }
+
+        /* .content h3{
+            padding: 20px;
+            
+        } */
+        .star1 img {
+            vertical-align: middle;
+            padding: 20px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="section">
+        <div class="left-side">
+            <div class="headingbox">
+                <h1>a cotton</h1>
+                <h1>wave.</h1>
+            </div>
+            <div class="color-box">
+                <h4>color</h4>
+                <span class="box1"></span>
+                <span class="box2"></span>
+
+            </div>
+            <div class="detailbox">
+                <h3>
+                    details
+                </h3>
+              <p>   Lorem ipsum dolor sit amet consectetur, adipisicing elit. In quam unde rem quisquam suscipit est non
+                    vel, repellendus laborum.
+                </p>
+
+                
+            </div>
+        </div>
+
+        <div class="right-side">
+            <div class="content">
+                <h1>$488</h1>
+                <h3 class="star1"> rating
+                    <img src="stars.png" width="60" height="60" alt="">
+                </h3>
+
+            </div>
+            <h1 class="image-r">
+                <img src="60348ab28c4c11eeb8852656ee3db587_upscaled.jpg" width="350" height="355" alt="height 20px">
+            </h1>
+
+        </div>
+    </div>
+</body>
